@@ -1,7 +1,79 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+#container{
+    width: 100%;
+    border:1px solid grey;
+    background:white;
+    
+}
+    
+header{
+    padding:5px;
+    background:white;
+}
+.imageform{
+    border:1px solid grey;
+    background:#00FFFF;
+    padding:5px;
+    margin:5px;
+    
+}
+.searchform{
+    float:right;
+    text-align:center;
+}
+    
+.image1,form{
+    display:inline-flex;
+}
+form{
+    float:right;
+    text-align: center;
+}
+   
+nav{
+    border:1px solid grey;
+    padding:5px;
+    margin:5px;
+    background:white;
+    text-align:center;
+}
+a{
+    padding:20px;
+}
+.part2{
+    display:inline-flex;
+    width:100%;
+}
+
+.post-img{
+    width: 240px;
+    height:250px;
+    border:0.5px solid grey;
+}
+#right-sidebar-menu{
+    float:right;
+    width:80%;
+}
+aside{
+    width:15%;
+}
+
+aside,section{
+    border:1px solid grey;
+    margin:10px;
+    padding:10px;
+}
+#main-content-section{
+    padding: 2px;
+    width:70%;
+}
+.post-img{
+    margin:20px;
+}
+#page-footer{
+    border:1px solid grey;
+    margin:10px;
+    padding:5px;
 }
