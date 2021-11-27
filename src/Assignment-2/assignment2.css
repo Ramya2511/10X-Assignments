@@ -5,7 +5,10 @@
     width: 100%;
     border:1px solid grey;
     background:white;
-    
+   
+}
+*{
+    box-sizing:border-box;
 }
     
 header{
@@ -22,6 +25,10 @@ header{
 .searchform{
     float:right;
     text-align:center;
+    padding:20px;
+}
+.image1{
+    padding:15px;
 }
     
 .image1,form{
@@ -43,12 +50,13 @@ a{
     padding:20px;
 }
 .part2{
-    display:inline-flex;
+    display:flex;
+    flex-direction:row;
     width:100%;
 }
 
 .post-img{
-    width: 240px;
+    width: 250px;
     height:250px;
     border:0.5px solid grey;
 }
@@ -66,12 +74,18 @@ aside,section{
     padding:10px;
 }
 #main-content-section{
-    padding: 2px;
+
     width:70%;
 }
+#main-content-section div{
+    display:flex;
+    flex-direction: row;
+}
+
 .post-img{
     margin:20px;
 }
+
 #page-footer{
     border:1px solid grey;
     margin:10px;
